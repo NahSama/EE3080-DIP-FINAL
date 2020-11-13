@@ -1,0 +1,23 @@
+{
+  "name": "pathfinding_algorithms",
+  "homepage": "http://nahsama.github.io/EE3080",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify /home/clement/Documents/Fullstack_Academy/Projects/Pathfinding_Algorithms/public/browser/board.js -o /home/clement/Documents/Fullstack_Academy/Projects/Pathfinding_Algorithms/public/browser/bundle.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
